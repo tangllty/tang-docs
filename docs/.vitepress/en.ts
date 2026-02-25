@@ -10,6 +10,7 @@ const nav: DefaultTheme.NavItem[] = [
     ]
   },
   { text: 'Vite Plugin Svg', link: '/vite-plugin-svg/introduction', activeMatch: '/vite-plugin-svg/introduction' },
+  { text: 'Vercel Analytics', link: '/vercel-analytics/introduction', activeMatch: '/vercel-analytics/introduction' },
 ]
 
 const sidebar: DefaultTheme.Sidebar = {
@@ -98,6 +99,16 @@ const sidebar: DefaultTheme.Sidebar = {
       items: [
         { text: 'Introduction', link: '/vite-plugin-svg/introduction'},
         { text: 'Getting Started', link: '/vite-plugin-svg/getting-started' },
+      ],
+      collapsed: false
+    }
+  ],
+  '/vercel-analytics/': [
+    {
+      text: 'Guide',
+      items: [
+        { text: 'Introduction', link: '/vercel-analytics/introduction'},
+        { text: 'Getting Started', link: '/vercel-analytics/getting-started' },
       ],
       collapsed: false
     }
